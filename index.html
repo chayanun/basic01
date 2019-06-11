@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic HTML</title>
+    <style>
+    body{
+        margin: 0;
+        background-color: #d6d2d2;
+        font-family: sans-serif;
+    }
+
+    ul.nav-menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #b6b3b3;
+    }
+
+    ul.nav-menu li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.nav-menu li a:hover {
+        background-color: #111;
+    }
+
+    ul.nav-menu li {
+        float: left;
+    }
+
+    div.wrapper{
+        clear: both;
+    }
+
+    div#home{
+        background-image: url(/images/blank-1920.jpg);
+        min-height: 300px;
+        text-align: center;
+        font-size: 38px;
+        line-height: 300px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <ul id="top-menu" class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div id="main" class="wrapper">
+        <div id="home">
+            <p>Welcome to my webpage!</p>
+        </div>
+        <div id="about">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis distinctio et esse quam, recusandae amet veniam eligendi doloremque ducimus eum libero officiis suscipit ex alias corrupti explicabo rem voluptate rerum.</p>
+        </div>
+        <div id="contact">
+            <h4>Contact us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloribus.</p>
+        </div>
+    </div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
